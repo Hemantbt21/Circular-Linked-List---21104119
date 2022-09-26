@@ -1,0 +1,25 @@
+Answer-1.
+  Algorithm:
+1. Set pointer to head.
+2. If pointer is null make empty list
+   Go to step 8
+3. Repeating steps 4 & 5 until ptr.next!=head
+4. Print pointer --> data or pointer data.
+5. pointer pointer --> next or pointer next.
+6. End of loop.
+7. Print pointer --> data or pointer.data.
+8. Exit
+
+In this algorithm of transversing a single circular linked list, third statement i.e ptr.next!=head establishes that traversing element/variable
+or pointer has reached first element as it corresponds to head.
+
+
+Answer-2. Practical applications of circular linked lists -
+          Train: Each compartment we can relate as a node in the Linked List and the engine compartment as the head. Attaching and detaching 
+          compartments can be related to inserting and deleting nodes in the List. Rotating the list can be viewed as rearranging the train 
+          compartments, similarly, reversing the list, etc.
+          
+          Music Playlist: Traversing the list in the forward direction and backward direction can be related to forwarding and rewinding the 
+          songs.
+          
+          Web browser history, the back button, and the forward button can be related to the doubly linked list.
